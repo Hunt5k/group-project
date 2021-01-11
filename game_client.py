@@ -158,7 +158,7 @@ def connect():
         lbl_your_name["text"] = "Your name: " + your_name
         connect_to_server(your_name)
 
-# FUNCTION FOR COUTDOWN
+# FUNCTION FOR TIMING COUTDOWN
 def count_down(my_timer, nothing):
     global game_round
     if game_round <= TOTAL_NO_OF_ROUNDS:
